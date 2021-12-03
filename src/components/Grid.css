@@ -1,0 +1,47 @@
+.bg-grille {
+    background-image: url("../img/Mars.jpg");
+}
+
+.grille {
+    position: relative;
+    max-width: 520px;
+    height: auto;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat( 10, 50px);
+    /* grid-template-rows: repeat(10, 50px); */
+    justify-content: center;
+    grid-gap: 2px;
+}
+
+.gridou {
+  
+    background-image: url("../img/rover.png");
+   
+}
+
+.grid-item {
+    width: 50px;
+    height: 50px;
+    background: #333;
+
+}
+
+.jumbotron {
+    padding: 3rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+  }
+
+  .form-group {
+    padding: 20px;
+  }
+
+  .plus {
+      
+      display: flex;
+  }
+
+ 
+
