@@ -1,10 +1,10 @@
 import './App.css';
-import Grid from './components/Grid';
+import RoverProject from './components/RoverProject';
 
 function App() {
   return (
     <div>
-      <Grid/>
+      <RoverProject/>
     </div>
   );
 }

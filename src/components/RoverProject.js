@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./Grid.css";
+import "./RoverProject.css";
 
-export default function Grid() {
+export default function RoverProject() {
   const [taille, settaille] = useState(0);
   const [direction, setdirection] = useState("N");
   const [X, setX] = useState(0);
