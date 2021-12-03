@@ -181,10 +181,10 @@ export default function RoverProject() {
               <strong>pour avancer tout droit : 'f'</strong>
             </p>
             <p className="list-group-item">
-              <strong> avancer tourner à droite : 'r'</strong>
+              <strong> Tourner le rover à droite : 'r'</strong>
             </p>
             <p className="list-group-item ">
-              <strong>pour avancer tourner à gauche : 'l'</strong>
+              <strong>Tourner le rover à gauche : 'l'</strong>
             </p>
           </ul>
 
@@ -201,12 +201,12 @@ export default function RoverProject() {
               />
             </div>
             <div className="form-group text-center">
-              <label htmlFor="coordonnéesx">
+              <label htmlFor="coordonnéesy">
                 Coordonnnées de Y (verticales)
               </label>
               <input
                 type="text"
-                id="coordonnéesx"
+                id="coordonnéesy"
                 className="form-control"
                 value={Y}
               />
