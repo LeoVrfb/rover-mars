@@ -202,7 +202,7 @@ export default function RoverProject() {
             </div>
             <div className="form-group text-center">
               <label htmlFor="coordonnéesx">
-                Coordonnnées de X (horizontales)
+                Coordonnnées de Y (verticales)
               </label>
               <input
                 type="text"
