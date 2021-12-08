@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./RoverProject.css";
+import useLocalStorage from "./useLocalStorage";
 
 export default function RoverProject() {
-  const [taille, settaille] = useState(0);
+  const [taille, settaille] = useLocalStorage('rover', 0);
   const [direction, setdirection] = useState("N");
   const [X, setX] = useState(0);
   const [Y, setY] = useState(0);
@@ -82,6 +83,7 @@ export default function RoverProject() {
       settaille((taille) => taille - 1);
       setX((taille % 10) - 1);
       setY(parseInt(taille / 10));
+
     } else if (
       direction === "S" &&
       taille !== 90 &&
@@ -98,6 +100,7 @@ export default function RoverProject() {
       settaille((taille) => taille + 10);
       setX(taille % 10);
       setY(parseInt(taille / 10 + 1));
+
     } else if (
       direction === "E" &&
       taille !== 9 &&
@@ -134,6 +137,7 @@ export default function RoverProject() {
       return "";
     }
   };
+ 
 
   return (
     <main role="main">
