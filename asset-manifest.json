@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/rover-mars/static/css/main.c77695f6.chunk.css",
+    "main.js": "/rover-mars/static/js/main.23060562.chunk.js",
+    "main.js.map": "/rover-mars/static/js/main.23060562.chunk.js.map",
+    "runtime-main.js": "/rover-mars/static/js/runtime-main.5e164425.js",
+    "runtime-main.js.map": "/rover-mars/static/js/runtime-main.5e164425.js.map",
+    "static/css/2.383c0125.chunk.css": "/rover-mars/static/css/2.383c0125.chunk.css",
+    "static/js/2.dae33ca3.chunk.js": "/rover-mars/static/js/2.dae33ca3.chunk.js",
+    "static/js/2.dae33ca3.chunk.js.map": "/rover-mars/static/js/2.dae33ca3.chunk.js.map",
+    "static/js/3.e1908ebe.chunk.js": "/rover-mars/static/js/3.e1908ebe.chunk.js",
+    "static/js/3.e1908ebe.chunk.js.map": "/rover-mars/static/js/3.e1908ebe.chunk.js.map",
+    "index.html": "/rover-mars/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/rover-mars/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.c77695f6.chunk.css.map": "/rover-mars/static/css/main.c77695f6.chunk.css.map",
+    "static/js/2.dae33ca3.chunk.js.LICENSE.txt": "/rover-mars/static/js/2.dae33ca3.chunk.js.LICENSE.txt",
+    "static/media/RoverProject.css": "/rover-mars/static/media/Mars.68c6c680.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e164425.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.dae33ca3.chunk.js",
+    "static/css/main.c77695f6.chunk.css",
+    "static/js/main.23060562.chunk.js"
+  ]
+}
